@@ -1,0 +1,37 @@
+[
+    {
+        "query_id": 1,
+        "query_text": "menimbang, bahwa terdakwa diajukan kepersidangan dengan dakwaansebagai berikut :bahwa ia terdakwa agus nadi als dok bin alwi, pada hari jum attanggal 21 oktober 2022 sekira pukul 18.00 wib atau setidak-tidaknya dalamtahun 2022, bertempat di jalan balap sepeda lr.muhajirin 4 rt.08 kelurahanlorok pakjo kecamatan ilir barat i kota palembang atau setidak-tidaknya padasuatu tempat yang masih termasuk dalam daerah hukum pengadilan negeripalembang yang berwenang memeriksa dan mengadili perkara ini, membeli,menyewa, menukar, menerima gadai, menerima hadiah, atau untuk menarikkeuntungan, menjual, menyewakan, menukarkan, menggadaikan, mengangkut,menyimpan, atau menyembunyikan sesuatu benda, yang diketahuinya atau putusan nomor 101/pid.b/2023/pn plg\fdirektori putusan mahkamah agung republik indonesia",
+        "ground_truth": "Sedang",
+        "case_id": "case_014",
+        "nomor_perkara": "101/pid.b/2023/pn.plgdemi"
+    },
+    {
+        "query_id": 2,
+        "query_text": "menimbang, bahwa terdakwa diajukan ke persidangan oleh penuntut umum didakwa berdasarkan surat dakwaan sebagai berikut : bahwa terdakwa eko suryono alias eko herkules bin subijono (alm) pada hari selasa tanggal 09 juli tahun 2019 atau setidak-tidaknya pada suatu waktu di bulan juli tahun 2019 bertempat di sekitar daerah purwodadi grobogan jawa tengah atau setidak-tidaknya pada tempat lain yang masih termasuk dalam daerah hukum pengadilan negeri purwodadi yang berwenang memeriksa dan mengadili perkara ini namun berdasarkan pasal 84 kuhap ayat (2) karena terdakwa ditahan di daerah hukum pengadilan negeri bandung kelas ia khusus dan sebagian besar saksi yang dipanggil lebih dekat pada tempat pengadilan negeri bandung kelas ia khusus daripada pengadilan negeri purwodadi sehingga pengadilan neg",
+        "ground_truth": "Sedang",
+        "case_id": "case_040",
+        "nomor_perkara": "883/pid.b/2023/pn"
+    },
+    {
+        "query_id": 3,
+        "query_text": "menimbang bahwa putusan pengadilan tinggi jambi tersebuttelah diberitahukan kepada terdakwa pada tanggal 11 januari 2019 danterdakwa tersebut mengajukan permohonan kasasi pada tanggal 23januari 2019 serta memori kasasinya telah diterima di kepaniteraanpengadilan negeri tanjung jabung timur pada tanggal 4 februari 2019.dengan demikian, permohonan kasasi beserta dengan alasan-alasannyatelah diajukan dalam tenggang waktu dan dengan cara menurut undang-undang, oleh karena itu permohonan kasasi terdakwa tersebut secaraformal dapat diterima;menimbang bahwa alasan kasasi yang diajukan pemohon kasasi/terdakwa dalam memori kasasi selengkapnya termuat dalam berkas perkara;menimbang bahwa terhadap alasan kasasi yang diajukanpemohon kasasi/terdakwa tersebut, mahkamah agung berpendapatsebagai berikut:-",
+        "ground_truth": "Ringan",
+        "case_id": "case_031",
+        "nomor_perkara": "18/pid.b/2018/pn.tjt"
+    },
+    {
+        "query_id": 4,
+        "query_text": "menimbang bahwa putusan pengadilan tinggi banda aceh tersebut telah diberitahukan kepada penuntut umum pada kejaksaan negeri aceh \fdirektori putusan mahkamah agung republik indonesia\nputusan.mahkamahagung.go.id",
+        "ground_truth": "Sedang",
+        "case_id": "case_046",
+        "nomor_perkara": "84/pid.b/2019/pn"
+    },
+    {
+        "query_id": 5,
+        "query_text": "menimbang, bahwa terdakwa diajukan ke persidangan oleh penuntutumum didakwa berdasarkan surat dakwaan sebagai berikut: putusan nomor 150/pid.b/2021/pn wno\fdirektori putusan mahkamah agung republik indonesia\nputusan.mahkamahagung.go.id",
+        "ground_truth": "Berat",
+        "case_id": "case_018",
+        "nomor_perkara": "150/pid.b/2021/pn"
+    }
+]

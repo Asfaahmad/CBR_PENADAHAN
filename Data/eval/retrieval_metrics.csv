@@ -1,0 +1,2 @@
+model,kernel,accuracy,precision,recall,f1_score,n_train,n_test
+LinearSVC,linear,0.5,0.25,0.5,0.3333333333333333,40,10
