@@ -1,4 +1,4 @@
-# ⚖️ Case-Based Reasoning (CBR) untuk Analisis Putusan Pengadilan Pidana Penadahan
+#  Case-Based Reasoning (CBR) untuk Analisis Putusan Pengadilan Pidana Penadahan
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![Status](https://img.shields.io/badge/Status-Selesai-success)
@@ -8,7 +8,7 @@ Proyek ini merupakan tugas mata kuliah **Penalaran Komputer** yang mengimplement
 
 ---
 
-## 📌 1. Deskripsi Singkat
+##  1. Deskripsi Singkat
 
 Sistem ini dibangun untuk membantu menemukan **kasus putusan pengadilan yang paling mirip** dengan suatu kasus baru (*query*), serta memprediksi kemungkinan **tingkat hukuman** (Ringan, Sedang, atau Berat) berdasarkan kasus-kasus serupa yang pernah diputuskan sebelumnya. Pendekatan ini mengikuti prinsip dasar penalaran berbasis kasus: *"kasus yang mirip cenderung memiliki solusi yang mirip."*
 
@@ -16,7 +16,7 @@ Seluruh data bersumber dari **50 file PDF putusan pidana penadahan** yang dipero
 
 ---
 
-## 🎯 2. Tujuan Proyek
+##  2. Tujuan Proyek
 
 1. Membangun representasi kasus (*case base*) dari dokumen putusan pengadilan yang tidak terstruktur (PDF).
 2. Mengimplementasikan mekanisme **Case Retrieval** untuk menemukan kasus paling relevan terhadap suatu kasus baru.
@@ -26,7 +26,7 @@ Seluruh data bersumber dari **50 file PDF putusan pidana penadahan** yang dipero
 
 ---
 
-## 🛠️ 3. Teknologi yang Digunakan
+##  3. Teknologi yang Digunakan
 
 | Kategori | Tools / Library |
 |---|---|
@@ -41,7 +41,7 @@ Seluruh data bersumber dari **50 file PDF putusan pidana penadahan** yang dipero
 
 ---
 
-## 📂 4. Struktur Folder Proyek
+##  4. Struktur Folder Proyek
 
 ```text
 CBR_PENADAHAN/
@@ -79,9 +79,9 @@ CBR_PENADAHAN/
 
 ---
 
-## 📓 5. Penjelasan Setiap Notebook
+##  5. Penjelasan Setiap Notebook
 
-### 🔹 Notebook 01 — Case Base
+###  Notebook 01 — Case Base
 
 Tahap pembentukan basis kasus (*case base*) dari dokumen mentah.
 
@@ -94,7 +94,7 @@ Tahap pembentukan basis kasus (*case base*) dari dokumen mentah.
 
 **Output:** `data/raw/txt/`, `data/processed/cases.csv`, `logs/cleaning.log`
 
-### 🔹 Notebook 02 — Case Representation
+###  Notebook 02 — Case Representation
 
 Tahap representasi kasus secara terstruktur.
 
@@ -104,7 +104,7 @@ Tahap representasi kasus secara terstruktur.
 
 **Output:** `data/processed/cases.csv` (versi final, terdiri dari 50 kasus dengan metadata dan fitur lengkap)
 
-### 🔹 Notebook 03 — Case Retrieval
+###  Notebook 03 — Case Retrieval
 
 Tahap pencarian kasus yang relevan terhadap suatu *query*.
 
@@ -116,7 +116,7 @@ Tahap pencarian kasus yang relevan terhadap suatu *query*.
 
 **Output:** `models/tfidf_vectorizer.pkl`, `models/svm_model.pkl`, `data/eval/retrieval_metrics.csv`, `data/eval/queries.json`
 
-### 🔹 Notebook 04 — Case Solution Reuse
+###  Notebook 04 — Case Solution Reuse
 
 Tahap penggunaan kembali solusi dari kasus-kasus serupa untuk memprediksi kasus baru.
 
@@ -129,7 +129,7 @@ Tahap penggunaan kembali solusi dari kasus-kasus serupa untuk memprediksi kasus 
 
 **Output:** `data/results/predictions.csv`
 
-### 🔹 Notebook 05 — Model Evaluation
+###  Notebook 05 — Model Evaluation
 
 Tahap evaluasi akhir terhadap hasil prediksi.
 
@@ -142,7 +142,7 @@ Tahap evaluasi akhir terhadap hasil prediksi.
 
 ---
 
-## 🔄 6. Alur Case-Based Reasoning (CBR)
+##  6. Alur Case-Based Reasoning (CBR)
 
 Sistem ini mengikuti siklus CBR klasik yang diadaptasi menjadi lima tahapan berurutan:
 
@@ -170,7 +170,7 @@ Proyek ini berfokus pada implementasi **Retrieve** dan **Reuse** secara penuh, d
 
 ---
 
-## ⚙️ 7. Cara Instalasi
+##  7. Cara Instalasi
 
 ### 7.1 Persyaratan
 
@@ -228,9 +228,9 @@ Lalu buka folder `notebooks/` dari antarmuka Jupyter.
 
 ---
 
-## ▶️ 8. Cara Menjalankan Proyek (Notebook 01 – 05)
+##  8. Cara Menjalankan Proyek (Notebook 01 – 05)
 
-> ⚠️ Notebook **wajib** dijalankan secara berurutan, karena setiap notebook bergantung pada output notebook sebelumnya.
+>  Notebook **wajib** dijalankan secara berurutan, karena setiap notebook bergantung pada output notebook sebelumnya.
 
 | Langkah | Notebook | Perintah |
 |---|---|---|
@@ -256,7 +256,7 @@ Seluruh path pada notebook menggunakan variabel `BASE_DIR` yang dihitung relatif
 
 ---
 
-## 📤 9. Penjelasan Output yang Dihasilkan
+##  9. Penjelasan Output yang Dihasilkan
 
 | File | Dihasilkan oleh | Deskripsi |
 |---|---|---|
@@ -272,7 +272,7 @@ Seluruh path pada notebook menggunakan variabel `BASE_DIR` yang dihitung relatif
 
 ---
 
-## 📊 10. Ringkasan Hasil Evaluasi
+##  10. Ringkasan Hasil Evaluasi
 
 Seluruh notebook berhasil dijalankan dari awal hingga akhir **tanpa error**, dengan seluruh output yang disyaratkan berhasil terbentuk.
 
@@ -290,7 +290,7 @@ Seluruh notebook berhasil dijalankan dari awal hingga akhir **tanpa error**, den
 
 ---
 
-## ✅ 11. Kesimpulan Proyek
+##  11. Kesimpulan Proyek
 
 Proyek ini berhasil mengimplementasikan pipeline **Case-Based Reasoning (CBR)** secara lengkap untuk domain putusan pidana penadahan, mulai dari ekstraksi dokumen mentah hingga evaluasi prediksi akhir. Sistem yang dibangun mampu:
 
@@ -303,18 +303,18 @@ Hasil evaluasi menunjukkan bahwa pendekatan CBR berbasis TF-IDF dan *voting* sed
 
 ---
 
-## 🚀 12. Future Work / Pengembangan Selanjutnya
+##  12. Future Work / Pengembangan Selanjutnya
 
-- 📈 **Penambahan jumlah kasus** pada *case base* untuk meningkatkan keandalan statistik model, khususnya pada kelas **Berat** yang masih minim sampel.
-- 🤖 **Eksplorasi representasi teks berbasis *embedding*** menggunakan model `transformers` (misalnya IndoBERT) sebagai alternatif TF-IDF untuk menangkap konteks semantik secara lebih mendalam.
-- ⚖️ **Penanganan ketidakseimbangan kelas** (*class imbalance*) menggunakan teknik seperti *oversampling*, *undersampling*, atau pembobotan kelas (*class_weight*) pada model klasifikasi.
-- 🔁 **Implementasi tahap Revise dan Retain** secara penuh, melibatkan validasi pakar hukum terhadap prediksi sistem sebelum kasus baru ditambahkan ke *case base*.
-- 🖥️ **Pengembangan antarmuka pengguna (UI/dashboard)** sederhana agar sistem CBR dapat digunakan secara interaktif oleh praktisi hukum tanpa perlu membuka notebook.
-- 🔍 **Eksperimen dengan algoritma klasifikasi lain** (misalnya Random Forest, Naive Bayes, atau model berbasis *deep learning*) sebagai pembanding terhadap LinearSVC.
+-  **Penambahan jumlah kasus** pada *case base* untuk meningkatkan keandalan statistik model, khususnya pada kelas **Berat** yang masih minim sampel.
+-  **Eksplorasi representasi teks berbasis *embedding*** menggunakan model `transformers` (misalnya IndoBERT) sebagai alternatif TF-IDF untuk menangkap konteks semantik secara lebih mendalam.
+-  **Penanganan ketidakseimbangan kelas** (*class imbalance*) menggunakan teknik seperti *oversampling*, *undersampling*, atau pembobotan kelas (*class_weight*) pada model klasifikasi.
+-  **Implementasi tahap Revise dan Retain** secara penuh, melibatkan validasi pakar hukum terhadap prediksi sistem sebelum kasus baru ditambahkan ke *case base*.
+-  **Pengembangan antarmuka pengguna (UI/dashboard)** sederhana agar sistem CBR dapat digunakan secara interaktif oleh praktisi hukum tanpa perlu membuka notebook.
+-  **Eksperimen dengan algoritma klasifikasi lain** (misalnya Random Forest, Naive Bayes, atau model berbasis *deep learning*) sebagai pembanding terhadap LinearSVC.
 
 ---
 
-## 📄 13. License
+##  13. License
 
 Proyek ini dirilis di bawah lisensi **MIT License**.
 
